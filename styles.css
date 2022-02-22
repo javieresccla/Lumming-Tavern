@@ -1,5 +1,6 @@
 body{
 	background-color: #4a4a4a ;
+	font-family:'Berkshire Swash', cursive;
 }
 		
 div{
@@ -8,6 +9,7 @@ div{
 	font-size: 30px;
 	margin-right: 40px;
 	margin-left: 40px;
+	
 }
 
 h1{

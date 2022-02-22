@@ -1,0 +1,25 @@
+body{
+	background-color: #4a4a4a ;
+}
+		
+div{
+	background-color: #363636;
+	color:  white;
+	font-size: 30px;
+	margin-right: 40px;
+	margin-left: 40px;
+}
+
+h1{
+	color: red;
+	font-size: 60px;
+}
+
+h3{
+	color: darkred;
+}
+
+.primera{
+	margin-right: 50px;
+	margin-top: 70px;
+}

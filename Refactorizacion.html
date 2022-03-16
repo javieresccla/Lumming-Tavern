@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Refactorización</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+
+	<h1>Refactotización</h1>
+	<h2>Concepto</h2>
+	<hr border:2px; width="60%" align="left">
+	<p>Es una práctica que consiste en realizar cambios internos y reestructurar el código de una aplicación con el objetivo de que todo aquel que quiera acceder al mismo pueda llegar a entenderlo, es decir, con esta práctica el código se queda más "limpio", o mejor dicho, entendible para aquel que quiera acceder al código, también es para que cuando quieras reutilizar el código puedas llegar a entenderlo sin desperdiciar tiempo por no poder comprenderlo, con esta práctica no debe cambiar el comportamiento de la aplicación. Es por ello que se le asigna a la práctica la frase "divide y venceras" porque cuanto más limpio sea el código, más fácil sera encontrar cualquier fragmento de él a lo largo del tiempo</p>
+
+	<h2>Ejemplo</h2>
+	<hr border:2px; width="60%" align="left">
+	<p>Esta práctica se utiliza cuando por ejemplo dentro del código de la aplicación tienes una función dentro de otra, esto se solucionaría quitando la función interna de la externa y poniendola fuera para que el código quede de una manera que la persona que quiera acceder, lo pueda entender.<br>
+	Código de ejemplo: <br><br>
+		void printCuenta (String nombre, double cantidad) {<br>
+		printLogo();<br>
+		System.out.println(“nombre: “ + nombre);<br>
+		System.out.println(“cantidad: “ + cantidad);<br><br>
+		}<br><br>
+	En este código hay una función deentro de otra, por lo que si alguien la necesita, no llegará a entenderla del todo, es por ello que hay que sacar la función de dentro.
+	</p>
+
+</body>
+</html>
